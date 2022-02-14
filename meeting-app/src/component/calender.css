@@ -1,0 +1,57 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+.e-calendar .e-content td.e-today span.e-day, .e-calendar .e-content td.e-focused-date.e-today span.e-day, .e-bigger.e-small .e-calendar .e-content td.e-today span.e-day, .e-bigger.e-small .e-calendar .e-content td.e-focused-date.e-today span.e-day {
+    background: none;
+    border: 1px solid blue;
+    border-radius: 50%;
+    color: blue;
+}
+
+.e-calendar .e-content td.e-selected span.e-day, .e-bigger.e-small .e-calendar .e-content td.e-selected span.e-day {
+    background-color: blue;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.e-calendar .e-content td.e-today.e-selected:hover span.e-day, .e-calendar .e-content td.e-selected:hover span.e-day, .e-calendar .e-content td.e-selected.e-focused-date span.e-day, .e-bigger.e-small .e-calendar .e-content td.e-today.e-selected:hover span.e-day, .e-bigger.e-small .e-calendar .e-content td.e-selected:hover span.e-day, .e-bigger.e-small .e-calendar .e-content td.e-selected.e-focused-date span.e-day {
+    background-color: blue  ;
+    color: #fff;
+}
+
+.e-btn.e-flat.e-primary, .e-css.e-btn.e-flat.e-primary {
+    background-color: transparent;
+    border-color: transparent;
+    color: blue;
+}
+
+.e-btn.e-flat.e-primary, .e-css.e-btn.e-flat.e-primary {
+    background-color: transparent;
+    border-color: transparent;
+    color: blue;
+}
+
+.e-btn.e-primary, .e-css.e-btn.e-primary {
+    background-color: blue;
+    border-color: transparent;
+    color: #fff;
+}
+
+.e-btn.e-primary:hover, .e-css.e-btn.e-primary:hover {
+    background-color: blue;
+    border-color: transparent;
+    box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%);
+    color: #fff;
+}
+
+.e-calendar .e-content td.e-today.e-selected span.e-day, .e-bigger.e-small .e-calendar .e-content td.e-today.e-selected span.e-day {
+    background-color: blue;
+    border: 1px solid blue;
+    box-shadow: inset 0 0 0 2px #fff;
+    color: #fff;
+}
+.e-btn.e-flat.e-primary:hover, .e-css.e-btn.e-flat.e-primary:hover {
+    background-color: rgba(227,22,91,0.04);
+    border-color: transparent;
+    color: blue;
+}
